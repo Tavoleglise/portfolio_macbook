@@ -15,6 +15,7 @@ export default function App() {
           far: 2000,
           position: [-3, 1.5, 4],
         }}
+        style={{ zIndex: 0 }}
       >
         <Experience started={start} />
       </Canvas>
